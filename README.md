@@ -1,5 +1,5 @@
 # Server-Client application
-This java Application consists of a app.server that opens a socket and restricts input to at most 5 concurrent
+This java Application consists of a server that opens a socket and restricts input to at most 5 concurrent
 clients. Clients will connect to the Application and write any number of 9 digit
 numbers, and then close the connection. The Application must write a de-duplicated
 list of these numbers to a log file in no particular order.
